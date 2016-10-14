@@ -12,7 +12,7 @@ module.exports = stylelint.createPlugin(ruleName, function (enabled) {
 
     if (!validOptions) { return }
 
-    var regexTest = /(.*)__([^\s]+)__/;
+    var regexTest = /__([a-zA-Z0-9]+)__/;
 
     root.walkRules(function (statement) {
       if (regexTest.test(statement.toString())) {

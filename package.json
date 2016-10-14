@@ -1,6 +1,6 @@
 {
   "name": "stylelint-bem-no-element-nesting",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Warns or errors when using nesting elements using the BEM methodology",
   "main": "index.js",
   "scripts": {},
